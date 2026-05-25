@@ -1,0 +1,16 @@
+# Initialize an empty list to store the band members
+the_beatles = []
+
+# The specific members we want the user to input
+members_to_add = ["Stu Sutcliffe", "Pete Best"]
+
+# Loop through each member name to prompt the user
+for member in members_to_add:
+    # Prompt the user with the expected name for clarity
+    user_input = input(f"Please type '{member}' to add them to the band list: ")
+    
+    # Append the user's input to our list
+    the_beatles.append(user_input)
+
+# Display the final list to confirm they were added
+print("\nUpdated band list:", the_beatles)
