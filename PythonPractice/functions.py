@@ -216,3 +216,73 @@
 
 '''scopes function'''
 
+# def scope_test():
+#     x = 123
+# scope_test()
+#print(x) #give error 'x' not defined
+
+
+
+# def my_function():
+#     print("Do I know that variable?", var)
+
+# var = 1
+# my_function()
+# print(var)
+
+
+'''shadowing scopes'''
+
+# def mult(x):
+#     var = 7
+#     return x* var
+# var = 3
+# print(mult(7))
+
+
+'''global variable'''
+
+# def my_function():
+#     global var
+#     var = 2
+#     print("Do i know that variable?", var)
+
+# var = 1
+# my_function()
+# print(var)
+
+
+# var = 2
+# print(var) #output =2
+
+# def return_var():
+#     global var
+#     var = 5
+#     return var
+# print(return_var()) #output=5
+# print(var)
+
+
+# def my_function(n):
+#     print("I got",n)
+#     n += 1
+#     print("I have",n)
+
+# var = 1
+# my_function(var)
+# print(var)
+
+
+# def my_function(my_list_1):
+#     print("Print #1:", my_list_1)
+#     print("Print #2:", my_list_2)
+#     # my_list_1 = [0,1] # assigning a new list
+#     del my_list_1[0] #delete the element from the element
+#     print("Print #3:", my_list_1)
+#     print("Print #4:", my_list_2)
+
+# my_list_2 = [2,3]
+# my_function(my_list_2)
+# print("Print #5:", my_list_2)
+
+
