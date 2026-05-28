@@ -87,3 +87,39 @@
 # print(pol_eng_dictionary)
 
 
+'''finding item'''
+
+# pol_eng_dictionary = {
+#     "zamek": "castle",
+#     "woda": "water",
+#     "gleba": "soil"
+# }
+
+# if "zamek1" in pol_eng_dictionary:
+#     print("Yes! zamek1 is present in the dictionary.")
+# else :
+#     print("NO! zamek1 is not present in the dictionary.")
+
+
+'''del and clear()'''
+
+
+# pol_eng_dictionary = {
+#     "zamek": "castle",
+#     "woda": "water",
+#     "gleba": "soil"
+# }
+
+# print(pol_eng_dictionary)
+# print(len(pol_eng_dictionary))
+# del pol_eng_dictionary["zamek"]
+# print(pol_eng_dictionary)
+# print(len(pol_eng_dictionary))
+
+# pol_eng_dictionary.clear() # clear removes all the element.
+# print(pol_eng_dictionary)
+# print(len(pol_eng_dictionary))
+# del pol_eng_dictionary # deletes the dictionary
+# print(pol_eng_dictionary)
+
+
