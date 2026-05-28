@@ -1,1 +1,2 @@
-boring_function()
+# for index in temps:
+# #     print(index)
