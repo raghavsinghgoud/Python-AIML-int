@@ -41,15 +41,15 @@ import pandas as pd
 # print(df)
 
 
-#groupby - like excel pivot
+# # groupby - like excel pivot
 # city_avg = df.groupby('City')['Marks'].mean()
 # print(city_avg)
-'''cleaning csv file, using split/strip/replace'''
+# '''cleaning csv file, using split/strip/replace'''
 
-# df2 =pd.read_csv('student.csv')
+# df2 =pd.read_csv('students.csv')
 # print(df2)
 
-#.str. ->vectorization string operation
+# # .str. ->vectorization string operation
 
 # df2 ['Name'] = df2['Name'].str.split() #strip convert each string into list of string
 # print(df2)
@@ -59,12 +59,12 @@ import pandas as pd
 # df2 ['First'] = df2['Name'].str.split().str[0]#for getting 1st last name   
 # print(df2,'\n')                               #for getting 1st last name      
 # df2["Last"] = df2['Name'].str.split().str[1]  #for getting 1st last name 
-# print('/n',df2)
+# print('\n',df2)
 
 # df2['Name'] = df2['Name'].str.strip()
 # print(df2)
 
-# df2['Marks'] = df2['Marks'].str.strip('#')
+# df2['Marks'] = df2['Marks'].astype(str).str.strip('#')
 # print(df2)
 
 
