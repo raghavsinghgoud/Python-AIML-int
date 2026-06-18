@@ -2,14 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm                # Normal Distribution Calculator
 
-#You feed it a mean and standard deviation , and it can answer any  probability question about 
+#You feed it a mean and standard deviation , and it can answer any probability question about q.
 
 #Normal Distribution - The bell curve 
 #Normal Distribution with mean 165cm and standard deviation 7cm.
 mean_h, std_h = 165,7
 
 # Probability of being taller than 175cm
-prob = 1 - norm.cdf(175, mean_h, std_h) # Cumulative distribution function, tells how many 
+prob = 1 - norm.cdf(175, mean_h, std_h) # Cumulative distribution function, tells how many prob.
 print(f'P(height > 175cm) = {prob:.4f} = {prob>100:.1f}%')
 
 # The 68-95-99.7 Rule
